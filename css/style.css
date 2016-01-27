@@ -1,0 +1,29 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto+Slab:400,700,100,300);
+
+* {
+  font-family: 'roboto slab', serif;
+}
+
+#menu-toggle {
+  background: #000;
+  border: none;
+  border-radius: 0;
+  color: #fff;
+  line-height: 50px;
+  width: 250px;
+}
+
+.sidebar-nav a {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  padding: 10px;
+}
+
+.sub-menu a, .icon-xs {
+  font-size: 16px;
+  padding-left: 10px;
+}
+
+
+
