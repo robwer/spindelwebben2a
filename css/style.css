@@ -4,6 +4,14 @@
   font-family: 'roboto slab', serif;
 }
 
+body {
+  min-height: 800px;
+}
+
+img {
+  width: auto;
+}
+
 #menu-toggle {
   background: #000;
   border: none;
@@ -11,6 +19,14 @@
   color: #fff;
   line-height: 50px;
   width: 250px;
+}
+
+#sidebar-wrapper {
+  top: 0;
+}
+
+#sidebar-wrapper ul {
+  top: 60px;
 }
 
 .sidebar-nav a {
@@ -25,5 +41,26 @@
   padding-left: 10px;
 }
 
+.row-centered {
+    text-align:center;
+}
+.col-centered {
+    display:inline-block;
+    float:none;
+    text-align:center;
+    margin-right:-4px;
+}
 
+.col-max {
+    max-width:320px;
+}
+
+.icon-big {
+  line-height: 56px;
+  font-size: 56px;
+}
+
+#kontakt {
+  font-size: ;
+}
 

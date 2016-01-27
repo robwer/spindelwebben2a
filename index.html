@@ -9,9 +9,10 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Simple Sidebar - Start Bootstrap Template</title>
+    <title>Spindelwebben</title>
 
     <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/navbar-fixed-top.css" rel="stylesheet">
 
     <link href="css/simple-sidebar.css" rel="stylesheet">
     <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
@@ -31,39 +32,213 @@
 </head>
 
 <body>
-  <a href="#menu-toggle" class="btn btn-default" id="menu-toggle">Toggle Menu</a>
-    <div id="wrapper">
-      
-        <div id="sidebar-wrapper">
-          
-          <nav>
-            
-            <ul class="sidebar-nav">              
-              
-              <li><a href="index.html">Hem</a></li>            
-              <li><a href="index.html#webbutveckling">Webbutveckling</a></li>
-              <li class="sub-menu"><a href="webbportfolio.html"><i class="material-icons icon-xs">subdirectory_arrow_right</i>Portfölj</a></li>
-              <li><a href="index.html#design">Design</a></li>
-              <li class="sub-menu"><a href="designportfolio.html"><i class="material-icons icon-xs">subdirectory_arrow_right</i>Portfölj</a></li>
-              <li><a href="index.html#foto">Foto</a></li>
-              <li class="sub-menu"><a href="galleri.html"><i class="material-icons icon-xs">subdirectory_arrow_right</i>Galleri</a></li>
-              <li><a href="index.html#kontakt">Kontakt</a></li>             
-            </ul>
-            
-          </nav>
-            
-        </div>
+  
+  
+<div id="wrapper">
+<div class="navbar-fixed-top"><a href="#menu-toggle" class="btn btn-default" id="menu-toggle">Toggle Menu</a></div>
+  
+  <div id="sidebar-wrapper">
+
+    <nav class="navbar-fixed-top">
+
+      <ul class="sidebar-nav">              
+
+        <li><a href="index.html">Hem</a></li>            
+        <li><a href="index.html#webbutveckling">Webbutveckling</a></li>
+        <li class="sub-menu"><a href="webbportfolio.html"><i class="material-icons icon-xs">subdirectory_arrow_right</i>Portfölj</a></li>
+        <li><a href="index.html#design">Design</a></li>
+        <li class="sub-menu"><a href="designportfolio.html"><i class="material-icons icon-xs">subdirectory_arrow_right</i>Portfölj</a></li>
+        <li><a href="index.html#foto">Foto</a></li>
+        <li class="sub-menu"><a href="galleri.html"><i class="material-icons icon-xs">subdirectory_arrow_right</i>Galleri</a></li>
+        <li><a href="index.html#kontakt">Kontakt</a></li>             
+      </ul>
+
+    </nav>
+
+  </div>
 
   
-  
+<main>
       
-        <div id="page-content-wrapper">
-          
-           
+<div id="page-content-wrapper">
+
+  <article id="webbutveckling">
+
+    <div class="container-fluid">
+
+      <div class="row row-centered">
+
+        <div class="col-md-2"></div>
+
+        <div class="col-md-8 col-centered"><h1>Webbutveckling</h1>
+          <p>Spindelwebben skapar moderna webbplatser till allt och alla - med fokus på design och tillgänglighet. Det ska vara smidigt för kunden att få en hemsida i enlighet med sina önskemål och fritt från krångel.</p>                
         </div>
-        
+
+        <div class="col-md-2 col-centered"></div>
+
+        <div class="col-xs-2 col-centered"><a href="webbportfolio.html" class="btn">Portfölj</a>
+        </div>
+
+        <div class="col-xs-2 col-centered"><a href="#kontakt" class="btn">Kontakt</a></div>
+
+        <div class="row row-centered">
+
+          <section class="col-md-3 col-centered col-max">
+            <i class="fa fa-paint-brush icon-big"></i>
+            <h2>Webbdesign</h2><p>Genomtänkt design som maxar attraktionen och tillgängligheten.</p>
+          </section>
+
+          <section class="col-md-3 col-centered col-max">
+            <i class="material-icons icon-big">important_devices</i>
+            <h2>Responsiv</h2><p>Hemsidor som ser ut och fungerar lika bra på alla enheter.</p>
+          </section>
+
+          <section class="col-md-3 col-centered col-max">
+            <i class="fa fa-html5 icon-big"></i>
+            <h2>HTML5</h2><p>Vi använder senaste standarden för webben.</p>
+          </section>
+
+          <section class="col-md-3 col-centered col-max">
+            <i class="fa fa-wordpress icon-big"></i>
+            <h2>CMS</h2><p>Vi v'gleder och hjälper er med att sätta upp och starta hemsida med ett CMS.</p>
+          </section>
+
+        </div>  
+
+      </div>              
 
     </div>
+
+  </article>
+  
+  <article id="design">
+
+    <div class="container-fluid">
+
+      <div class="row row-centered">
+
+        <div class="col-md-2"></div>
+
+        <div class="col-md-8 col-centered"><h1>Design</h1>
+          <p>Spindelwebben hjälper er med grafisk profil, logotyper, visitkort, produktblad och mycket annat som faller under kategorin design.</p>                
+        </div>
+
+        <div class="col-md-2 col-centered"></div>
+
+        <div class="col-xs-2 col-centered"><a href="designportfolio.html" class="btn">Portfölj</a>
+        </div>
+
+        <div class="col-xs-2 col-centered"><a href="#kontakt" class="btn">Kontakt</a></div>
+
+        <div class="row row-centered">
+
+          
+
+          <section class="col-md-3 col-centered col-max">
+            <i class="material-icons icon-big">photo_filter</i>
+            <h2>Grafisk Profil</h2>
+            <p>Vi tar fram grafiska profiler.</p>
+          </section>
+
+          <section class="col-md-3 col-centered col-max">
+            <i class="fa fa-apple icon-big"></i>
+            <h2>Logotyper</h2><p>Vi hjälper er med diverse grafikelement.</p>
+          </section>
+
+          
+
+        </div>  
+
+      </div>              
+
+    </div>
+
+  </article>
+  
+  <article id="Foto">
+
+    <div class="container-fluid">
+
+      <div class="row row-centered">
+
+        <div class="col-md-2"></div>
+
+        <div class="col-md-8 col-centered"><h1>Foto</h1>
+          <p>Genom Spindelwebben kan ni anlita fotograf för alla tänkbara ändamål - till hemsidan, evenemang, profilbilder mm. Vi erbjuder även bildbehandling av alla dess slag.</p>                
+        </div>
+
+        <div class="col-md-2 col-centered"></div>
+
+        <div class="col-xs-2 col-centered"><a href="designportfolio.html" class="btn">Galleri</a>
+        </div>
+
+        <div class="col-xs-2 col-centered"><a href="#kontakt" class="btn">Kontakt</a></div>
+
+        <div class="row row-centered">
+
+          
+
+          <section class="col-md-3 col-centered col-max">
+            <i class="material-icons icon-big">photo_camera</i>
+            <h2>Fotograf</h2>
+            <p>Skicklig fotograf till ert förfogande.</p>
+          </section>
+
+          <section class="col-md-3 col-centered col-max">
+            <i class="material-icons icon-big">photo_size_select_large</i>
+            <h2>Bildbehandling</h2><p>Vi redigerar bilder för alla ändamål.</p>
+          </section>
+
+          
+
+        </div>  
+
+      </div>              
+
+    </div>
+
+  </article>
+  
+  <section id="kontakt">
+
+    <div class="container-fluid">
+
+      <div class="row">
+
+        <div class="col-md-8"><h1>Kontakt</h1>
+          <p>RING <small>oss på telefonnummer</small> 073 726 ** **</p>
+          <p><small>Eller skicka ett </small>MAIL <small>till</small> INFO@SPINDELWEBBEN.SE</p>
+          <p><small>Ni kan också skicka brev eller vykort till </small>ADRESS: SOLDATGATAN 18B, 185 34, VAXHOLM</p>                
+        </div>
+
+        <div class="col-md-4"></div>
+      
+
+      </div>              
+
+    </div>
+
+  </section>
+  
+
+
+</div>
+  
+</main>
+  
+<footer>
+
+  <div class="col-md-3">
+    <p>spindelwebben.se</p>
+    <p>info@spindelwebben.se</p>
+    <p>073 726 00 00</p>
+    <a href="#"><i class="fa fa-facebook-official fa-2x"></i></a> <a href="#"><i class="fa fa-instagram fa-2x"></i></a>
+  </div>
+  
+</footer>
+
+
+</div>
     
 
     <!-- jQuery -->
