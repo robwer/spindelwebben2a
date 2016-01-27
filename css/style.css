@@ -8,10 +8,6 @@ body {
   min-height: 800px;
 }
 
-img {
-  width: auto;
-}
-
 #menu-toggle {
   background: #000;
   border: none;
@@ -23,6 +19,7 @@ img {
 
 #sidebar-wrapper {
   top: 0;
+  z-index: 0;
 }
 
 #sidebar-wrapper ul {
@@ -39,6 +36,9 @@ img {
 .sub-menu a, .icon-xs {
   font-size: 16px;
   padding-left: 10px;
+}
+
+#header {
 }
 
 .row-centered {
